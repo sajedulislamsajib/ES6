@@ -1,3 +1,3 @@
-var name="sajib";
+const name="sajib";
 name="Rain";
 console.log(name);
