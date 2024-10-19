@@ -1,6 +1,5 @@
-var i;
-var sum=0;
-for (i=1;i<=10;i++)
+var nameArray=['kamal','sajib','jamal','sajib']
+for(let oneName of nameArray)
 {
-    console.log(i);
+    console.log(oneName)
 }
