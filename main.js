@@ -45,10 +45,10 @@
 //     console.log("Shirt Color is offWhite");
 // }
 
-function myName(){
-    var x=10;
-    var y=10;
+function myName(x,y){
+
     var z=x+y;
     console.log(z);
 
 }
+myName("sajedul","sajib")
