@@ -88,9 +88,13 @@
 //     console.log(item);
 // }
 //multidimentional array
-var Bangladesh=["Dhaka","Rangpur","Ctg"]
-var india=["Mumbai","Chennai","Kolkata"]
-var china=["Uhan","Shanghai","Hongkong"]
+// var Bangladesh=["Dhaka","Rangpur","Ctg"]
+// var india=["Mumbai","Chennai","Kolkata"]
+// var china=["Uhan","Shanghai","Hongkong"]
 
-var asia=[Bangladesh,india,china]
-console.log(asia[1][2])
+// var asia=[Bangladesh,india,china]
+// console.log(asia[1][2])
+//----------------------Array Destucturing--------------------
+var countries=["BAN","IND","CANA","PAK"]
+var[a,,,b]=countries;
+console.log(b);
