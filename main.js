@@ -108,7 +108,16 @@ myMap.set("key5","Bhutan")
 myMap.set("key6","Nepal")
 myMap.set("key7","Thailand")
 
-
-for(let myvalue of myMap.values()){
-    console.log(myvalue);
+//value deletion from map
+//myMap.delete("key1")//variable.delete("key value")
+//myMap.delete("key2")
+//myMap.clear()//clear make deletion all value from map
+if(myMap.has("key12")){
+    console.log("YES")
 }
+else{
+    console.log("NO")
+}
+// for(let myvalue of myMap.values()){
+//     console.log(myvalue);
+// }
