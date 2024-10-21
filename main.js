@@ -95,6 +95,19 @@
 // var asia=[Bangladesh,india,china]
 // console.log(asia[1][2])
 //----------------------Array Destucturing--------------------
-var countries=["BAN","IND","CANA","PAK"]
-var[a,,,b]=countries;
-console.log(b);
+// var countries=["BAN","IND","CANA","PAK"]
+// var[a,,,b]=countries;
+// console.log(b);
+//----------------------MAP--------------(key,vaue)
+var myMap =new Map();
+myMap.set("key1","Bangladesh")
+myMap.set("key2","India")
+myMap.set("key3","Srilanka")
+myMap.set("key4","Maldiv")
+myMap.set("key5","Bhutan")
+myMap.set("key6","Nepal")
+myMap.set("key7","Thailand")
+
+
+console.log(myMap.values())
+console.log(myMap.keys())
