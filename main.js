@@ -76,14 +76,21 @@
 //--------------------------------
 //ES6 array
 //array declaration
-var myArray=[1,2,3,4,5,6,7,8,9]
-var myArraowPro = new Array(1,2,3,4,5,6,7,8,9);
+// var myArray=[1,2,3,4,5,6,7,8,9]
+// var myArraowPro = new Array(1,2,3,4,5,6,7,8,9);
 
 
-console.log(myArray[1])
-console.log(myArraowPro[1])
+// console.log(myArray[1])
+// console.log(myArraowPro[1])
 
-for(let item in myArraowPro)
-{
-    console.log(item);
-}
+// for(let item in myArraowPro)
+// {
+//     console.log(item);
+// }
+//multidimentional array
+var Bangladesh=["Dhaka","Rangpur","Ctg"]
+var india=["Mumbai","Chennai","Kolkata"]
+var china=["Uhan","Shanghai","Hongkong"]
+
+var asia=[Bangladesh,india,china]
+console.log(asia[1][2])
