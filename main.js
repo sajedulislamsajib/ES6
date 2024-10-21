@@ -69,7 +69,21 @@
 // console.log(myFun(1,2,3,4,5,6,7,8,9,10));
 //------------------------
 //arraow function
-var myArraow=(...x)=>{
-    console.log(x);
+// var myArraow=(...x)=>{
+//     console.log(x);
+// }
+// myArraow(1,2,3,4);
+//--------------------------------
+//ES6 array
+//array declaration
+var myArray=[1,2,3,4,5,6,7,8,9]
+var myArraowPro = new Array(1,2,3,4,5,6,7,8,9);
+
+
+console.log(myArray[1])
+console.log(myArraowPro[1])
+
+for(let item in myArraowPro)
+{
+    console.log(item);
 }
-myArraow(1,2,3,4);
