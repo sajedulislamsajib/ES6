@@ -45,10 +45,25 @@
 //     console.log("Shirt Color is offWhite");
 // }
 
-function myName(x,y){
+// function myName(x,y){
 
-    var z=x+y;
-    console.log(z);
+//     var z=x+y;
+//     console.log(z);
 
+// }
+// myName("sajedul","sajib")
+
+// function something(...x){
+//     var sum =0;
+//     for(let y in x){
+//         sum=sum+y;
+//     }
+// console.log(sum);
+
+
+// }
+// something(1,2,3,4,5,6,7,8,9,10)
+var myFun=function(){
+    return "Hello"
 }
-myName("sajedul","sajib")
+console.log(myFun());
