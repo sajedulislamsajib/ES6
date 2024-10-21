@@ -109,5 +109,6 @@ myMap.set("key6","Nepal")
 myMap.set("key7","Thailand")
 
 
-console.log(myMap.values())
-console.log(myMap.keys())
+for(let myvalue of myMap.values()){
+    console.log(myvalue);
+}
