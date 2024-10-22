@@ -123,14 +123,25 @@ myMap.set("key7","Thailand")
 // }
 
 //ES6 set
-//set is almost same as array but no duplicate value
-var mySet=new Set();
-mySet.add('Bangladesh');
-mySet.add('India');
-mySet.add('Nepal');
-mySet.add('Bhutan');
-mySet.add('China');
-mySet.add('India');
-mySet.add('Bangladesh');
-console.log(mySet);
+ //set is almost same as array but no duplicate value
+// var mySet=new Set();
+// mySet.add('Bangladesh');
+// mySet.add('India');
+// mySet.add('Nepal');
+// mySet.add('Bhutan');
+// mySet.add('China');
+// mySet.add('India');
+// mySet.add('Bangladesh');
+
+
+//mySet.clear();//it clear all the elements of set;
+//mySet.delete('Nepal')//for deleting specific value;
+
+//console.log(mySet.values());for printing values of set
+
+// if(mySet.has('Canada')){
+//     console.log("YES")
+// }else{console.log("NO")}
+
+//ES6 class object oriented Programming
 
