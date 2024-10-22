@@ -112,12 +112,25 @@ myMap.set("key7","Thailand")
 //myMap.delete("key1")//variable.delete("key value")
 //myMap.delete("key2")
 //myMap.clear()//clear make deletion all value from map
-if(myMap.has("key12")){
-    console.log("YES")
-}
-else{
-    console.log("NO")
-}
+// if(myMap.has("key12")){
+//     console.log("YES")
+// }
+// else{
+//     console.log("NO")
+// }
 // for(let myvalue of myMap.values()){
 //     console.log(myvalue);
 // }
+
+//ES6 set
+//set is almost same as array but no duplicate value
+var mySet=new Set();
+mySet.add('Bangladesh');
+mySet.add('India');
+mySet.add('Nepal');
+mySet.add('Bhutan');
+mySet.add('China');
+mySet.add('India');
+mySet.add('Bangladesh');
+console.log(mySet);
+
