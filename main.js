@@ -145,28 +145,45 @@ myMap.set("key7","Thailand")
 
 //------------------------------------------------------CLASS--------------------------------------------
 //ES6 class object oriented Programming
+// class MyClass{
+//     myFun(name){
+//         console.log(name)
+//     }
+//     myFun1(name){
+//         console.log(name) }
+//     myFun2(name){
+//         console.log(name)  }
+//     myFun3(name){
+//         console.log(name)  }
+//     myFun4(name){
+//         console.log(name) } 
+//     myFun5(name){
+//         console.log("Hello I am from Function inside class")
+//     }
+// }
+
+// var obj=new MyClass;
+// obj.myFun("Bangladesh");
+// obj.myFun1("India");
+
+// obj.myFun2("Sri Lanka");
+
+// obj.myFun3("Maldives");
+
+//Class --Constructor
+//constructor hocche class er ekta nijossho method/function.Function er motoi eta kaj kore
+//constructor kono kichu return korte pare na
 class MyClass{
-    myFun(name){
-        console.log(name)
-    }
-    myFun1(name){
-        console.log(name) }
-    myFun2(name){
-        console.log(name)  }
-    myFun3(name){
-        console.log(name)  }
-    myFun4(name){
-        console.log(name) } 
-    myFun5(name){
-        console.log("Hello I am from Function inside class")
-    }
+constructor(a,b){
+    this.firstNum=a;
+    this.secondNum=b;
+}
+add() {
+   let result= this.firstNum+this.secondNum
+  console.log( result);
 }
 
-var obj=new MyClass;
-obj.myFun("Bangladesh");
-obj.myFun1("India");
 
-obj.myFun2("Sri Lanka");
-
-obj.myFun3("Maldives");
-
+}
+var obj=new MyClass(10,20);
+obj.add();
