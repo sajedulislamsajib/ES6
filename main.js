@@ -173,17 +173,58 @@ myMap.set("key7","Thailand")
 //Class --Constructor
 //constructor hocche class er ekta nijossho method/function.Function er motoi eta kaj kore
 //constructor kono kichu return korte pare na
-class MyClass{
-constructor(a,b){
-    this.firstNum=a;
-    this.secondNum=b;
+// class MyClass{
+// constructor(a,b){
+//     this.firstNum=a;
+//     this.secondNum=b;
+// }
+// add() {
+//    let result= this.firstNum+this.secondNum
+//   console.log( result);
+// }
+
+
+// }
+// var obj=new MyClass(10,20);
+// obj.add();
+
+//static keyword
+// class MyClass{
+
+
+//     static hello(){
+//         console.log("Hello World");
+//     }
+// }
+// var obj= new MyClass();
+// MyClass.hello();
+//------------------------Inheritence in ES6-------------------
+class parent{
+    hello1(params) {
+    console.log("Hello 1 Function");
+   }
+
+   hello2(params) {
+    console.log("Hello 2 Function");
+   }
+   hello3(params) {
+    console.log("Hello 3 Function");
+   }
+   hello4(params) {
+    console.log("Hello 4 Function");
+   }
+   hello5(params) {
+    console.log("Hello 5 Function");
+   }
 }
-add() {
-   let result= this.firstNum+this.secondNum
-  console.log( result);
-}
+
+class child extends parent{
 
 
 }
-var obj=new MyClass(10,20);
-obj.add();
+
+var obj= new child();
+obj.hello1()
+obj.hello2()
+obj.hello3()
+obj.hello4()
