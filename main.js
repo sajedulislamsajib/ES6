@@ -220,15 +220,16 @@ class parent{
 
 class child extends parent{
     //method overriding-parent er kono method ba function child modify korte parbe 
-    hello1(params) {
-        console.log("Hello 1 Function Hello 1 FunctionHello 1 Function");
-       }
-    
+    // hello1(params) {
+    //     console.log("Hello 1 Function Hello 1 FunctionHello 1 Function");
+    //    }
+    demo(){
+        super.hello1();//super keyword
+        super.hello2();
 
+
+    }
 }
 
 var obj= new child();
-obj.hello1()
-obj.hello2()
-obj.hello3()
-obj.hello4()
+obj.demo();
